@@ -1,0 +1,37 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        background-color: theme('colors.pink');
+        border-radius: theme('borderRadius.lg');
+    }
+} */
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+body {
+  font-style: monospace;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+}
+
+div{
+    color: green;
+}
+
+<button is-primary">
+  Button
+</button>
